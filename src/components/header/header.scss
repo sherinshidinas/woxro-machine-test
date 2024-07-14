@@ -10,6 +10,7 @@
     width: 30px;
     height: 30px;
     align-self: flex-end;
+    cursor: pointer;
   }
 
   .title {
@@ -21,7 +22,7 @@
   }
 
   .titleImg {
-   margin-top: 20px;
+    margin-top: 20px;
     width: 100%;
     max-width: 900px;
     height: 300px;
@@ -43,12 +44,13 @@
     font-size: 14px;
     max-width: 300px;
     height: 40px;
+    cursor: pointer;
     background-color: white;
     color: black;
   }
 }
 
-/* Media Queries for Responsiveness */
+//Media query for responsiveness
 @media (max-width: 768px) {
   .header {
     padding: 10px;

@@ -1,5 +1,6 @@
 .content {
   margin-top: 100px;
+
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +22,6 @@
 
         .card-text {
           font-size: 11px;
-
           text-align: center;
           font-family: Roboto;
           font-weight: 300;
@@ -75,6 +75,7 @@
         font-weight: 200;
         font-family: Roboto;
       }
+
       p {
         font-size: 12px;
         text-align: center;
@@ -86,7 +87,7 @@
   }
 }
 
-/* Media Queries for Responsiveness */
+//Media query for responsiveness
 @media (max-width: 768px) {
   .row {
     .card {
@@ -115,6 +116,8 @@
   }
 
   .users {
+    margin-left: 0 !important;
+
     .items {
       h6 {
         font-size: 35px;
@@ -154,6 +157,8 @@
   }
 
   .users {
+    margin-left: 0 !important;
+
     .items {
       h6 {
         font-size: 30px;
